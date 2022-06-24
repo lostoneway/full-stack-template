@@ -19,7 +19,6 @@ I wanted to make a template so I could hit the ground running when creating new 
 - App will build and deploy without issue but crashes soon after. Attempting to reproduce event and making fixes as I go. Template continues to get a H10 error. 
 
 ## Optimizations
-*(optional)*
 
 - Utilized Heroku's config vars so I didn't have to upload my `.env` file to the site. 
 - Practiced async function with try and catch on `.get` method within the server.js file.
