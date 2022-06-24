@@ -26,7 +26,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 app.use(cors())
 
-//Routes 
+//Routes
 app.get('/', async(request,response) => {
     try {
         response.render('index.ejs')
