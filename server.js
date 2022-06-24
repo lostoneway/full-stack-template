@@ -35,7 +35,7 @@ app.get('/', async(request,response) => {
     }
 })
 //setup listening port 
-app.listen(process.env.PORT || PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
     //check that your server is running during development
     console.log(`Server is running on port ${process.env.PORT}`)
 })
