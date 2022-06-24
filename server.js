@@ -26,6 +26,14 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 app.use(cors())
 
+//Routes 
+app.get('/', async(request,response) => {
+    try {
+        response.render('index.ejs')
+    } catch(error){
+        response.status(500).send({message: error.message})
+    }
+})
 //setup listening port 
 app.listen(process.env.PORT || PORT, () => {
     //check that your server is running during development
