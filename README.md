@@ -13,7 +13,7 @@ I wanted to make a template so I could hit the ground running when creating new 
 - a public folder for client-side work (css/js)
 - a views folder for `ejs`
 - `.gitignore` for well, things to ignore
-- `server.js` file with dependances to poplulate `package.json`
+- `server.js` file with dependencies to poplulate `package.json`
 
 ## Issues 
 - App will build and deploy without issue but crashes soon after. Attempting to reproduce event and making fixes as I go. Template continues to get a H10 error. 
