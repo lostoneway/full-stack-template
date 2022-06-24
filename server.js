@@ -19,6 +19,13 @@ MongoClient.connect(dbConnectionString)
         collection = db.collection('quotes')
     })
 
+//Middlewares 
+app.set('view engine','ejs')
+app.use(express.static('public'))
+app.use(express.urlencoded({extended: true}))
+app.use(express.json())
+app.use(cors())
+
 //setup listening port 
 app.listen(process.env.PORT || PORT, () => {
     //check that your server is running during development
