@@ -9,7 +9,7 @@
     "dev": "nodemon server.js"
 
   },
-  "author": "",
+  "author": "Me",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
