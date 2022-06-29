@@ -16,7 +16,7 @@ I wanted to make a template so I could hit the ground running when creating new 
 - `server.js` file with dependencies to populate `package.json`
 
 ## Issues 
-- App will build and deploy without issue but crashes soon after. Attempting to reproduce event and making fixes as I go. Template continues to get a H10 error. 
+- Turns out the H10 error I was getting was *NOT* the first error in the logs. I could not establish a connection to my database. After reviewing my whitelist and inputting IP/IP ranges I needed. I was able to connect and remain connected to the database!  
 
 ## Optimizations
 
