@@ -32,6 +32,7 @@ I wanted to make a template so I could hit the ground running when creating new 
 ## Steps to set up a project: 
 - [ ] Run npm init in terminal, press enter through options, you can populate your answers later in the package.json
 - [ ] Set up your dependencies : run npm install express, dotenv, cors, mongodb, ejs and nodemon(--save-dev)
+- [ ] add "dev": "nodemon server.js" to your scripts in `package.json`
 - [ ] Require your dependencies in `server.js`
 - [ ] Declare variables 
 - [ ] Create .gitignore file and place `node modules` and `.env` files before pushing to GitHub
