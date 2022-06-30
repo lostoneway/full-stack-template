@@ -30,7 +30,31 @@ I wanted to make a template so I could hit the ground running when creating new 
 - Heroku is picky, a space in your Procfile could cause your app to crash.
 
 ## Steps to set up a project: 
-To be continued. 
+### Create MongoDB collection: 
+- [ ]
+- [ ] Run npm init in terminal, press enter through options, you can populate your answers later in the package.json
+- [ ] Set up your dependencies : run npm install express, dotenv, cors, mongodb, ejs and nodemon(--save-dev)
+- [ ] Require your dependencies in `server.js`
+- [ ] Declare variables 
+- [ ] Create .gitignore file and place `node modules` and `.env` files before pushing to GitHub
+- [ ] Connect to MongoDB by adding connection string to `.env` file
+- [ ] Create app.listen for process.env.PORT || PORT (XXXX)
+- [ ] TEST CONNECTION before trying to do anything else! :warning:
+- [ ] Set up middleware in server.js
+- [ ] Create public and views folders. Add `main.js` and `style.css` to Public, add `index.ejs` to Views
+
+## Deploy app to Heroku 
+- [ ] In terminal, in project folder, try to be on your server.js file just as practice/precaution and type heroku login and follow instructions
+- [ ] Type heroku create <file name here>
+- [ ] Type echo "web: node server.js" > Procfile 
+- [ ] git add .
+- [ ] git commit -m "changes made" 
+- [ ] git push heroku main 
+- [ ] go to heroku dashboard to config vars if you DID NOT push your `.env` file to heroku 
+- [ ] test heroku link 
+
+
+
 
 
 
