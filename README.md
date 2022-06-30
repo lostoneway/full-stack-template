@@ -30,8 +30,6 @@ I wanted to make a template so I could hit the ground running when creating new 
 - Heroku is picky, a space in your Procfile could cause your app to crash.
 
 ## Steps to set up a project: 
-### Create MongoDB collection: 
-- [ ]
 - [ ] Run npm init in terminal, press enter through options, you can populate your answers later in the package.json
 - [ ] Set up your dependencies : run npm install express, dotenv, cors, mongodb, ejs and nodemon(--save-dev)
 - [ ] Require your dependencies in `server.js`
